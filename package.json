@@ -1,0 +1,37 @@
+{
+  "name": "nodegresql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "nodemon server.js",
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seforarodriguez/nodegresql.git"
+  },
+  "extends": {
+        "./node_modules/coding-standard/eslintDefaults.js"
+        // Override eslintDefaults.js
+        "./node_modules/coding-standard/.eslintrc-es6"
+        // Override .eslintrc-es6
+        "./node_modules/coding-standard/.eslintrc-jsx"
+    },
+  "author": "“Sefora",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seforarodriguez/nodegresql/issues"
+  },
+  "homepage": "https://github.com/seforarodriguez/nodegresql#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "pg": "^4.5.1",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^3.19.3"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^2.3.1"
+  }
+}
