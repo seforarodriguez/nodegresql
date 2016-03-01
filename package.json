@@ -12,13 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/seforarodriguez/nodegresql.git"
   },
-  "extends": {
-        "./node_modules/coding-standard/eslintDefaults.js"
-        // Override eslintDefaults.js
-        "./node_modules/coding-standard/.eslintrc-es6"
-        // Override .eslintrc-es6
-        "./node_modules/coding-standard/.eslintrc-jsx"
-    },
+  
   "author": "“Sefora",
   "license": "MIT",
   "bugs": {
